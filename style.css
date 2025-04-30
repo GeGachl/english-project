@@ -37,12 +37,13 @@ body {
     margin-bottom: 1rem;
   }
   
-  .healthy-life {
+  .healthy-life, .cat {
     font-size: 1.1rem;
     color: #555;
     text-align: justify;
     line-height: 1.8;
   }
+  
   
   /* Footer styles */
   .footer {
