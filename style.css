@@ -18,7 +18,18 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
+  a {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(184, 166, 166);
+    margin: 0 1rem;
+  }
+
   
   /* Main content styles */
   .main {
@@ -37,7 +48,7 @@ body {
     margin-bottom: 1rem;
   }
   
-  .healthy-life, .cat {
+  .german, .karim, .ruslan {
     font-size: 1.1rem;
     color: #555;
     text-align: justify;
